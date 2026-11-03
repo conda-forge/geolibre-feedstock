@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.6.0"
+  version: "3.6.1"
   python_min: "3.11"
 package:
   name: geolibre
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/geolibre/geolibre-${{ version }}.tar.gz
-  sha256: 725f036de4240f7952865b23a0e400b1f543c96bfe7161952f793f5ad8ee3ac4
+  sha256: b9e7e6bbeae59cc9a29dc57bb6e4eada283d43eed181bc24523768b1ac1fc911
 
 build:
   number: 0
